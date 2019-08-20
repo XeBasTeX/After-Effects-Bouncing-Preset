@@ -6,7 +6,7 @@ t = time - (inPoint + retard);
 startVal = [100, 100, 100];
 endVal = [0, 0, 0];
 if (t < duration) {
-linear(t,0,duration,startVal,endVal);
+linear(t, 0, duration, startVal, endVal);
 } else {
 amp = (endVal - startVal)/duration;
 w = freq*Math.PI*2;
